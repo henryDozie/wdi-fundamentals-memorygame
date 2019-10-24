@@ -1,0 +1,36 @@
+h1 {
+font-family: "Raleway", sans-serif;
+font-weight: 400;
+color: #0D2C40;
+letter-spacing: 1px;
+font-weight: 45px;
+}
+
+h4 {
+	font-family: "Raleway", sans-serif;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+h3 {
+	font-family: "Raleway";
+	color: #0D2C40;
+	letter-spacing: 1px;
+	font-weight: 600
+	font-size: 20px;
+}
+
+body {
+	text-align: center;
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, a{
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+a {
+	color: #F15B31;
+}
