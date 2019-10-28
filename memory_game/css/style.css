@@ -1,9 +1,9 @@
 h1 {
 font-family: "Raleway", sans-serif;
 font-weight: 400;
-color: #0D2C40;
 letter-spacing: 1px;
 font-weight: 45px;
+margin: 0;
 }
 
 h4 {
@@ -24,6 +24,7 @@ h3 {
 body {
 	text-align: center;
 	text-decoration: none;
+	margin: 0;
 }
 
 h1, h2, h3, h4, a{
@@ -33,4 +34,80 @@ h1, h2, h3, h4, a{
 
 a {
 	color: #F15B31;
+	margin: 0 20px 0 20px;
+	color: #FFFFFF;
 }
+
+header {
+	background-color: #F15B31;
+	color: #FFFFFF;
+	padding: 30px 20px 0 20px;
+}
+
+nav {
+	background-color: #00A6B3;
+	color: #FFFFFF;
+	padding: 20px 0 20px;
+	border-bottom: 2px solid transparent;
+}
+
+a:hover {
+	border-color: white;
+}
+
+main {
+	width: 850px;
+	margin: 35px auto;
+}
+
+img {
+	margin: 40px 8px 40px 8px;
+}
+
+footer {
+	text-transform: uppercase;
+	padding: 0 20px;
+	background-color: #0D2C40;
+	color: white;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
+}
+
+.copyright {
+	float: left;
+}
+.message {
+	float: right;
+ }
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+
+.name {
+	color: #F15B31;
+	font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
