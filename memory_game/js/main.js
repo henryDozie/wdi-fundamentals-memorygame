@@ -21,13 +21,17 @@ var cards = [{
 	}
 ];
 
+
 var cardsInPlay = [];
 function checkForMatch(){
 		
 		if (cardsInPlay[0] === cardsInPlay[1])
 			{
 				alert("You found a match!");
+				location.reload();
+				score +=2;
 			}
+
 
 		else
 			{
@@ -49,9 +53,10 @@ function flipCard(){
 	cardsInPlay.push(cards[cardId].rank);
 	if(cardsInPlay.length == 2){
 	checkForMatch();
+	location.reload();
 	}
 	else
-		flipCard();
+	 flipCard();
 }
 
 
@@ -69,27 +74,7 @@ function createBoard(){
 	    document.getElementById('game-board').appendChild(cardElement);
 	}
 }
-
 createBoard();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
