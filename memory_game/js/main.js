@@ -29,7 +29,7 @@ function checkForMatch(){
 			{
 				alert("You found a match!");
 				location.reload();
-				score +=2;
+				//score +=2;
 			}
 
 
@@ -47,9 +47,9 @@ function flipCard(){
 
 	var cardId = this.getAttribute('data-id');
 	this.setAttribute('src', cards[cardId].cardImage);
-	console.log("User flipped " + cards[cardId].rank);
+	//console.log("User flipped " + cards[cardId].rank);
 	console.log(cards[cardId].cardImage);
-	//console.log(cards[cardId].suit);
+	console.log(cards[cardId].suit);
 	cardsInPlay.push(cards[cardId].rank);
 	if(cardsInPlay.length == 2){
 	checkForMatch();
